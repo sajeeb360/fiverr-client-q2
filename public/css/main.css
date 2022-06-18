@@ -1,0 +1,109 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.title {
+	text-anchor:middle;
+}
+
+.axis text {
+  font-size:10px;
+}
+
+/* .bar {
+  fill:green;
+  opacity:.4;
+} */
+.btn {
+  font-size: 11px;
+  color: #adadad;
+}
+#sorting:hover, #sorting:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+/* #sorting img {
+  opacity: 0.8;
+} */
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 2px 2px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+}
+.tooltip-label {
+  font-weight: 500;
+  font-size: 10px;
+  color: #888;
+}
+
+/* Add your code here */
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.title {
+	text-anchor:middle;
+}
+
+.axis text {
+  font-size:10px;
+}
+
+.bar {
+  /* fill:#08d2e9; */
+  opacity:.4;
+  shape-rendering: crispEdges;
+}
+.bar:hover {
+  fill: #c15f45;
+  transition: fill ease-in-out 200ms;
+}
+.axis path {
+  shape-rendering: crispEdges;
+  stroke: #888;
+}
+.y-axis path {
+  display: none;
+}
+
+.btn {
+  font-size: 11px;
+  color: #adadad;
+}
+#sorting:hover, #sorting:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+#sorting img {
+  opacity: 0.8;
+}
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 2px 2px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+}
+.tooltip-label {
+  font-weight: 500;
+  font-size: 10px;
+  color: #888;
+}
+.tooltip-label ul{
+  list-style:none;
+  padding:0;
+    margin:0;
+    font-weight: 600;
+}

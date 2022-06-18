@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="data:;base64,iVBORwOKGO=" />
+	<title>Assignment 03: Q2 Abdul Mansoor Khan Mohammad</title>
+
+	<!-- Custom files -->
+	<link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body class="container">
+	<h1>IT 452 Assignment 03: Q2 Abdul Mansoor Khan Mohammad</h1>
+	<h2>U.S. State Drinking Patterns in 2012</h2>
+
+	<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-primary">
+			<input value="male" class="sex" type="radio" name="options" id="option1" autocomplete="off">Male
+		</label>
+		<label class="btn btn-primary active">
+			<input value="female" type="radio" class="sex" name="options" id="option2" autocomplete="off" checked>Female
+		</label>
+		<label class="btn btn-primary active">
+			<input value="all" type="radio" class="sex" name="options" id="option3" autocomplete="off" checked>All
+		</label>
+	</div>
+
+
+	<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-primary">
+			<input value="any" type="radio" name="options" id="option1" autocomplete="off">Any Drinking
+		</label>
+		<label class="btn btn-primary active">
+			<input value="binge" type="radio" name="options" id="option2" autocomplete="off" checked>Binge Drinking
+		</label>
+	</div>
+
+	<div id="vis"></div>
+
+
+
+	<div id="footer">
+		<div class="footer-col">
+			<button type="button" class="btn btn-link btn-sm" id="sorting">
+				<img src="images/sort-down.svg" alt="" width="14" height="14" title="Sort"> Reverse order
+			</button>
+		</div>
+	</div>
+
+    <div id="tooltip"></div>
+	
+
+	<!-- Libraries -->
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+		type="text/css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script src="http://colorbrewer2.org/export/colorbrewer.js"></script>
+
+	<!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+
+	<!-- your script file -->
+	<link rel="icon" href="data:;base64,iVBORwOKGO=" />
+	<script src="js/barchart.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
